@@ -10,7 +10,6 @@ FSSD is an FPGA-based emulator for solid-state drives (SSDs), designed to provid
 ### Prerequisites
 Prior to initiating the project setup, the following prerequisites must be fulfilled:
 
-
 #### Obtaining License
 
 To obtain a license for the Xilinx NVMe Target Controller:
@@ -35,21 +34,24 @@ To obtain a license for the Xilinx NVMe Target Controller:
 Follow these steps to configure the Vivado project:
 
 1. **Open the Vivado Project**:
-   - Start Vivado.
-   - Navigate to `File -> Open Project`.
-   - Locate and select the `.xpr` file from the cloned repository.
+   - Start Vivado 2019.2.
+   - Select `Create Project`.
+   - Create a Vivado RTL Project, with Boards selected as [Virtex UltraScale+ VCU118 Evaluation Platform](https://www.xilinx.com/products/boards-and-kits/vcu118.html#documentation).
 
-2. **Incorporate the `local_pcores` Folder**:
+2. **Incorporate the Source Code Folders**:
    - Within Vivado, access `Tools -> Settings...`.
    - In Project Settings, opt for `IP -> Repository`.
-   - Append the previously extracted `local_pcores` folder.
+   - Append the previously extracted `local_pcores` folder in [Obtaining the Required Files](#obtaining-the-required-files).
+   - Append the `fssd.ipdefs` folder found in the published release.
 
 3. **Acquire and Integrate the Xilinx NVMe Target Controller License**:
    - Adhere to the instructions in the [Obtaining License](#obtaining-license) segment for license procurement.
    - Incorporate the acquired license into your project as outlined.
 
-4. **Completing the Project Setup**:
-   - Post license integration and inclusion of the `local_pcores` folder, the project setup is deemed complete.
+4. **Complete the Project Setup**:
+   - Within Vivado, access `Tools -> Run Tcl Script...`.
+   - Select the `design_1.tcl` file found in the published release.
+   - Wait for the script to finish loading.
    - Users are now equipped to proceed with synthesis, implementation, or bitstream generation as required.
 
 ### FPGA Deployment
