@@ -31,6 +31,7 @@ To obtain a license for the Xilinx NVMe Target Controller:
 6. Decompress the downloaded file, ensuring the presence of the `NVMeTC/hw/250s+/local_pcores` directory.
 
 ### Project Setup
+The project source code are available here at: [FSSD Source Code](https://drive.google.com/file/d/1tltqKoNzMn-BJt2UZwoO9gbLbXFCqd-z/view?usp=share_link)
 Follow these steps to configure the Vivado project:
 
 1. **Open the Vivado Project**:
