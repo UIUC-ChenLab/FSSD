@@ -31,7 +31,8 @@ To obtain a license for the Xilinx NVMe Target Controller:
 6. Decompress the downloaded file, ensuring the presence of the `NVMeTC/hw/250s+/local_pcores` directory.
 
 ### Project Setup
-The project source code are available here at: [FSSD Source Code](https://drive.google.com/file/d/1tltqKoNzMn-BJt2UZwoO9gbLbXFCqd-z/view?usp=share_link)
+The project source code are available here at: [FSSD Source Code](https://drive.google.com/file/d/1tltqKoNzMn-BJt2UZwoO9gbLbXFCqd-z/view?usp=share_link).
+
 Follow these steps to configure the Vivado project:
 
 1. **Open the Vivado Project**:
@@ -43,7 +44,7 @@ Follow these steps to configure the Vivado project:
    - Within Vivado, access `Tools -> Settings...`.
    - In Project Settings, opt for `IP -> Repository`.
    - Append the previously extracted `local_pcores` folder in [Obtaining the Required Files](#obtaining-the-required-files).
-   - Append the `fssd.ipdefs` folder found in the published release.
+   - Append the `fssd.ipdefs` folder found in the source code link.
 
 3. **Acquire and Integrate the Xilinx NVMe Target Controller License**:
    - Adhere to the instructions in the [Obtaining License](#obtaining-license) segment for license procurement.
@@ -51,7 +52,7 @@ Follow these steps to configure the Vivado project:
 
 4. **Complete the Project Setup**:
    - Within Vivado, access `Tools -> Run Tcl Script...`.
-   - Select the `design_1.tcl` file found in the published release.
+   - Select the `design_1.tcl` file found in the source code link.
    - Wait for the script to finish loading.
    - Users are now equipped to proceed with synthesis, implementation, or bitstream generation as required.
 
