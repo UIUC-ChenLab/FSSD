@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5717148fs"></ZoomStartTime>
+      <ZoomEndTime time="6857541fs"></ZoomEndTime>
+      <Cursor1Time time="6155000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="255"></NameColumnWidth>
+      <ValueColumnWidth column_width="257"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject type="logic" fp_name="/testbench/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/mem_address">
+      <obj_property name="ElementShortName">mem_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/addr_valid">
+      <obj_property name="ElementShortName">addr_valid</obj_property>
+      <obj_property name="ObjectShortName">addr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/mem_rw">
+      <obj_property name="ElementShortName">mem_rw</obj_property>
+      <obj_property name="ObjectShortName">mem_rw</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/mem_new_address">
+      <obj_property name="ElementShortName">mem_new_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_new_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/addr_resp">
+      <obj_property name="ElementShortName">addr_resp</obj_property>
+      <obj_property name="ObjectShortName">addr_resp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/cache_hit">
+      <obj_property name="ElementShortName">cache_hit</obj_property>
+      <obj_property name="ObjectShortName">cache_hit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/new_tag">
+      <obj_property name="ElementShortName">new_tag[14:0]</obj_property>
+      <obj_property name="ObjectShortName">new_tag[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/addr_arr">
+      <obj_property name="ElementShortName">addr_arr[0:9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_arr[0:9][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/new_addr_arr">
+      <obj_property name="ElementShortName">new_addr_arr[0:9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">new_addr_arr[0:9][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/addr_translation_bram_en">
+      <obj_property name="ElementShortName">addr_translation_bram_en</obj_property>
+      <obj_property name="ObjectShortName">addr_translation_bram_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/addr_translation_bram_write">
+      <obj_property name="ElementShortName">addr_translation_bram_write</obj_property>
+      <obj_property name="ObjectShortName">addr_translation_bram_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/assigned_tag_in">
+      <obj_property name="ElementShortName">assigned_tag_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">assigned_tag_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/assigned_tag_out">
+      <obj_property name="ElementShortName">assigned_tag_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">assigned_tag_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/state">
+      <obj_property name="ElementShortName">state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">state[31:0]</obj_property>
+   </wvobject>
+</wave_config>
